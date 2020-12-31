@@ -24,5 +24,5 @@ export default function operate(numberOne, numberTwo, operation) {
       return one.div(two).toString();
     }
   }
-  throw Error("unkown operation '${operation}'");
+  throw Error(`unkown operation '${operation}'`);
 }
